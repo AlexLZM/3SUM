@@ -10,7 +10,7 @@ Output: [[-1,-1,2],[-1,0,1]]
 2. Decompose the problem into 2 scenarios:
  - Dulplicates in solution
  - No duplicates in solution
-3. In first scenario: loop over counter, if count > 1, check if -number * 2 in counter
+3. In first scenario: loop over counter, if count > 1, check if (-number * 2) in counter
 4. In second scenerio:  Neseted loop
  - Outer loop: over sorted keys of counter, set the search range for second number 
  - Inner loop: over search range, check if (-num) + (-num2) in counter
