@@ -7,13 +7,13 @@ Output: [[-1,-1,2],[-1,0,1]]
 
 ## Strategy
 1. Build counter of nums
-2. decompose the problem into 2 scenarios:
- - dulplicates in solution
- - no duplicates in solution
-3. in first scenario: loop over counter, if count > 1, check if -number * 2 in counter
-4. in second scenerio:  Neseted loop
- - outer loop: over sorted keys of counter, set the search range for second number 
- - inner loop: over search range, check if (-num) + (-num2) in counter
+2. Decompose the problem into 2 scenarios:
+ - Dulplicates in solution
+ - No duplicates in solution
+3. In first scenario: loop over counter, if count > 1, check if -number * 2 in counter
+4. In second scenerio:  Neseted loop
+ - Outer loop: over sorted keys of counter, set the search range for second number 
+ - Inner loop: over search range, check if (-num) + (-num2) in counter
 
 ## Time complexity:
 O(n<sup>2</sup>)
