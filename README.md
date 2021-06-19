@@ -11,7 +11,7 @@ Output: [[-1,-1,2],[-1,0,1]]
  - dulplicates in solution
  - no duplicates in solution
 3. in first scenario: loop over counter, if count > 1, check if -number * 2 in counter
-4. in second scenerio: 
+4. in second scenerio:  Neseted loop
  - outer loop: over sorted keys of counter, set the search range for second number 
  - inner loop: over search range, check if (-num) + (-num2) in counter
 
